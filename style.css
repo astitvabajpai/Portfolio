@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000122;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(7, 7, 58);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    color: rgb(144, 144, 199);
+}
+.left {
+    font-size: 2rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.firstSection > div{
+    width: 30%;
+}
+
+.leftSection{
+    font-size: 2.5rem;
+}
+.rightSection{
+    width: 80%;
+}
+
+.purple{
+    color: rgb(187, 152, 219);
+}
+#element{
+    color: rgb(187, 152, 219);
+}
+
+.hr{
+    margin: 40px 84px;
+    background-color: #9c97f1;
+    border: 0;
+    height: 1.2px;
+}
+.secondSection{
+    margin:auto;
+    max-width: 80vw; 
+    height: 125vh;
+}
+
+.textGray{
+    color: gray;
+}
+
+.box{
+    background-color: white;
+    width: 75vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.vertical{
+    width: 1px;
+    background-color: white;
+    height: 93px;
+    margin: 0 120px;
+}
+.imageHtml{
+    width:23px;
+    position:relative;
+    top: -30px;
+    left: -9px;
+}
+.imageCss{
+    width:23px;
+    position:relative;
+    top: -40px;
+    left: -9px;
+    size: 10%;
+}
+.vertical-text{
+position: relative;
+top: 75px;
+width: 160px;
+}
+.vertical-textCss{
+    position: relative;
+    top: 65px;
+    width: 160px;
+    }
+    .vertical-textJs{
+        position: relative;
+        top: 75px;
+        width: 160px;
+        }
+        .vertical-textReact{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            }    
+.Vertical-description{
+    position: relative;
+    top: 86px;
+    width: 150px;
+    color: gray;
+}
+.Vertical-descriptionCss{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    color: gray;
+}
+
+footer{
+    background-color: rgb(4, 4, 19);
+    height: 640px;
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer > div{
+    width: 220px;
+}
+.footerRights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+.button{
+    padding: 50px 0;
+}
+.btn{
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer; 
+}
+.btn:active {
+    transform: scale(0.98); 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    }
+    
+    .message{
+        text-align: center;
+        color: gray;
+        padding-top: 12px;
+        margin-bottom: 0px;
+    }
+.thankYou{
+        text-align: center;
+        color: gray;
+        margin-bottom: 0px;
+    }
+    #insta {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+                background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        font-size: 10px; 
+        
+      }
+    a.instagram:hover{
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+                background-clip: text;
+        -webkit-text-fill-color: transparent;
+        cursor: url('data:image/svg+xml;base64,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>');
+    }
+
+
+#facebook{
+    background: #4661b0;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 10px;
+}
+a.facebook:hover{
+    background: #4661b0;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+
+}
+#Linkedin{
+    background: #4661b0;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 10px;
+}
+a.Linkedin:hover{
+    background: #4661b0;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+
+}
+#Github{
+    background: #6cc644;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 10px;
+}
+a.Github:hover{
+    background: #6cc644;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+
+}
+.slides { 
+    overflow: hidden;
+    width: 80%; 
+}
+
+.slides-hidden { display : none; }
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background: #1e2167;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:active{
+    transform: scale(0.98); 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    }  
